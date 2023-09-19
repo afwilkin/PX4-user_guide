@@ -21,7 +21,7 @@ This has a connector for the [Pixhawk Debug Full](../debug/swd_debug.md#pixhawk-
 ## Debugging Configuration
 
 The STLink provides the [GDB server via OpenOCD](https://openocd.org/doc-release/html/index.html):
-
+A good video tutorial on getting started with OpenOCD can be found [here](https://www.youtube.com/watch?v=_1u7IOnivnM)
 ```sh
 # Ubuntu
 sudo apt install openocd

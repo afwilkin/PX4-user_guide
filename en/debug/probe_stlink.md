@@ -34,6 +34,9 @@ You can launch the GDB server in a new terminal shell:
 ```sh
 openocd -f interface/stlink.cfg -f target/stm32f7x.cfg
 ```
+:::note
+If you installed openocd with apt, your `interface` and `target` folders can be found under `/usr/share/openocd/scripts/`
+:::
 
 The config file needs to be:
 
